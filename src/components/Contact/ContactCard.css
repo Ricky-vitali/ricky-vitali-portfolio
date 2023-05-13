@@ -1,0 +1,19 @@
+.contactCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #1D1D1D;
+    color: #fff;
+    gap: 1rem;
+    width: 20rem;
+    height: 12rem;
+
+    box-shadow: 3px 14px 24px 6px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 3px 14px 24px 6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 14px 24px 6px rgba(0, 0, 0, 0.75);
+}
+
+.contactCard svg {
+    font-size: 4rem;
+}

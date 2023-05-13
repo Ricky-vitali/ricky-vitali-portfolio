@@ -1,0 +1,17 @@
+
+.sectionTitleContainer{
+    margin: 3rem;
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+.sectionTitleContainer hr{
+    margin-top: 1rem;
+    border: 1px solid #00FFFF;
+}
+
+@media screen and (max-width: 768px) {
+    .sectionTitleContainer h2{
+        text-align: center;
+    }
+}

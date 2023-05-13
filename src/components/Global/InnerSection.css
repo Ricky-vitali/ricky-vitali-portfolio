@@ -1,0 +1,14 @@
+.innerSectionContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 768px) {
+    .innerSectionContainer{
+        justify-content: center;
+    }
+}

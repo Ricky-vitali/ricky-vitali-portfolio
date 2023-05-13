@@ -1,0 +1,59 @@
+.techCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #1D1D1D;
+    color: #fff;
+    gap: 1rem;
+    width: 7rem;
+    height: 8rem;
+    border-radius: 10px;
+    box-shadow: 3px 14px 24px 6px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 3px 14px 24px 6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 14px 24px 6px rgba(0, 0, 0, 0.75);
+}
+
+.techCard svg {
+    font-size: 3rem;
+}
+
+/* ON HOVER TECHS ICONS */
+
+.React:hover{
+    color: #00d8ff;
+}
+.Vue:hover{
+    color: #41b883;
+}
+.Javascript:hover{
+    color: #f0db4f;
+}
+.Php:hover{
+    color: #8892BF;
+}
+.SQL:hover{
+    color: #00618a;
+}
+.HTML:hover{
+    color: #e64d24;
+}
+.SCSS:hover{
+    color: #c69;
+}
+.Wordpress:hover{
+    color: #00749a;
+}
+.Ux:hover{
+    color: orange;
+}
+.Illustrator:hover{
+    color: #faa625;
+}
+.Photoshop:hover{
+    color: #80b5e2;
+}
+.Figma:hover{
+    color: #f24e1e;
+}
+ 

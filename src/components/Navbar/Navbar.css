@@ -1,0 +1,172 @@
+h1 {
+    font-size: 0;
+}
+
+.nav {
+    position: fixed;
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #151616;
+    color: #fff;
+    min-height: 100vh;
+    width: 10vw;
+
+}
+
+.navList ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.navList ul li {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid #ffffff38;
+
+}
+
+
+.nav ul {
+    width: 100%;
+
+}
+
+.navList {
+    width: 100%;
+    border-top: 1px solid #ffffff38;
+
+}
+
+.nav li {
+    cursor: pointer;
+}
+
+.nav a {
+    color: #CCCCCC;
+    width: 100%;
+    text-align: center;
+        padding-top: 1.4rem;
+    padding-bottom: 1.4rem;
+}
+
+.nav li a.active {
+    color: #00FFFF;
+}
+
+.nav li a:hover {
+    color: #00FFFF;
+    transition: 0.3s;
+}
+
+.nav li:hover+a {
+
+    color: #00FFFF;
+}
+
+.navLogo {
+    margin-top: 1.4rem;
+    height: 4rem;
+}
+
+
+
+footer {
+    width: 100%;
+    text-align: center;
+}
+
+footer button {
+    border: none;
+    color: #CCCCCC;
+    background-color: transparent;
+    font-size: 1rem;
+    cursor: pointer;
+    width: auto;
+    padding: 1rem 0;
+}
+
+footer button:hover {
+    color: #00FFFF;
+    box-shadow: none;
+
+}
+
+
+
+footer hr {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #f2f2f231;
+   /*  margin-top: 1rem; */
+    margin-bottom: 1rem;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+}
+
+footer ul li {
+    cursor: pointer;
+}
+
+/* MOBILE */
+
+#check {
+    display: none;
+}
+
+.checkbuton {
+    display: none;
+}
+
+.icon-navicon {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 0.5rem;
+    background-color: rgb(154 151 151 / 44%);
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .checkbuton {
+        color: whitesmoke;
+        font-size: 30px;
+        position: fixed;
+        top: 0%;
+        right: 5%;
+        display: block;
+        z-index: 100;
+        display: block;
+        margin-top: 2rem;
+    }
+
+    .nav {
+        display: none;
+
+
+    }
+
+    #check:checked~.nav {
+        width: 100vw !important;
+        display: flex;
+        transition: 1s;
+
+    }
+
+
+}

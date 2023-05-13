@@ -1,0 +1,50 @@
+.skillsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 3rem;
+    color: #fff;
+    padding: 3rem;
+    border-radius: 5px;
+    box-shadow: 3px 14px 24px 6px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 3px 14px 24px 6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 14px 24px 6px rgba(0, 0, 0, 0.75);
+}
+
+.skillsContainer button {
+    border: none;
+    color: #CCCCCC;
+    background-color: transparent;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    width: auto;
+}
+
+.selectedButton {
+    color: #00FFFF !important;
+    border-bottom: 1px solid #00FFFF !important;
+    border-radius: 0;
+
+}
+
+.subSectionButtons button:hover {
+    color: #00FFFF;
+    box-shadow: none;
+}
+
+
+
+/* MOBILE */
+
+@media screen and (max-width: 768px) {
+    .skillsContainer {
+        /*      flex-direction: initial; */
+        justify-content: center;
+    }
+
+    .subSectionButtons {
+        display: flex;
+        flex-direction: column;
+    }
+}
