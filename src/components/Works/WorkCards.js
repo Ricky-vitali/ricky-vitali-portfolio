@@ -14,7 +14,7 @@ const WorkCards = (props) => {
     const image = props.image
 
     let imageStyle = {
-        backgroundImage: `url('../images/cardFrontImage/${image}')`,
+        backgroundImage: `url('./images/cardFrontImage/${image}')`,
     };
 
 
