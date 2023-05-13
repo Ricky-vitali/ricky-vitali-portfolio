@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.eb627cd0.css",
-    "main.js": "/static/js/main.4e4f71ed.js",
-    "static/js/787.aeca62f9.chunk.js": "/static/js/787.aeca62f9.chunk.js",
-    "static/media/logo.png": "/static/media/logo.907ca0cc54c3487a72af.png",
-    "index.html": "/index.html",
-    "main.eb627cd0.css.map": "/static/css/main.eb627cd0.css.map",
-    "main.4e4f71ed.js.map": "/static/js/main.4e4f71ed.js.map",
-    "787.aeca62f9.chunk.js.map": "/static/js/787.aeca62f9.chunk.js.map"
+    "main.css": "/ricky-vitali-portfolio/static/css/main.eb627cd0.css",
+    "main.js": "/ricky-vitali-portfolio/static/js/main.3216ac5a.js",
+    "static/js/787.aeca62f9.chunk.js": "/ricky-vitali-portfolio/static/js/787.aeca62f9.chunk.js",
+    "static/media/logo.png": "/ricky-vitali-portfolio/static/media/logo.907ca0cc54c3487a72af.png",
+    "index.html": "/ricky-vitali-portfolio/index.html",
+    "main.eb627cd0.css.map": "/ricky-vitali-portfolio/static/css/main.eb627cd0.css.map",
+    "main.3216ac5a.js.map": "/ricky-vitali-portfolio/static/js/main.3216ac5a.js.map",
+    "787.aeca62f9.chunk.js.map": "/ricky-vitali-portfolio/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eb627cd0.css",
-    "static/js/main.4e4f71ed.js"
+    "static/js/main.3216ac5a.js"
   ]
 }
